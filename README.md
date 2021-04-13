@@ -6,7 +6,7 @@ I will be updating this with every new project I create.
 
 ### Who Am I ?
 
-Well I am just a G33k who recently got into the vast world of Linux. I am but a child in that area, so the road is still very long. I have learned so much yet so little. I wish to one day get rid of Windows never to boot into it again. THat day is so close yet so far... 
+Well I am just a G33k who recently got into the vast world of Linux. I am but a child in that area, so the road is still very long. I have learned so much yet so little. I wish to one day get rid of Windows never to boot into it again. That day is so close yet so far... 
 
 ### Support or Contact
 
