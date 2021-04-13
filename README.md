@@ -4,9 +4,9 @@ This is my Github, where I will be posting all my work, like Grub Themes and Arc
 
 I will be updating this with every new project I create.
 
-### Markdown
+### Who Am I ?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Well I am just a G33k who recently got into the vast world of Linux. I am but a child in that area, so the road is still very long. I have learned so much yet so little. I wish to one day get rid of Windows never to boot into it again. THat day is so close yet so far... 
 
 ### Support or Contact
 
