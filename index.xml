@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Arch Linux</title>
+      <title>ArchLinux</title>
       <link>https://techxero.github.io/projects/arco/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -27,7 +27,7 @@ Command git clone https://github.com/TechXero/ArcoLinux.git SH Scripts Note Do n
     </item>
     
     <item>
-      <title>Calamares Config</title>
+      <title>Calamares</title>
       <link>https://techxero.github.io/projects/calamares/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -63,6 +63,32 @@ sudo ./install.sh Enjoy ;)</description>
     </item>
     
     <item>
+      <title>For EFLinux</title>
+      <link>https://techxero.github.io/dedications/eflinux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/dedications/eflinux/</guid>
+      <description>About This is where EFLinux Grub Theme dedicated to his fans will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+1- Git Clone Repo
+git clone https://github.com/TechXero/EFLinuxGrub.git 2- Set Exec permissions
+sudo chmod +x ./install.sh 3- Install Theme
+sudo ./install.sh Enjoy ;)</description>
+    </item>
+    
+    <item>
+      <title>HefftorLinux</title>
+      <link>https://techxero.github.io/dedications/hefftor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/dedications/hefftor/</guid>
+      <description>About This is where HefftorLinux dedicated Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+1- Git Clone Repo
+git clone https://github.com/TechXero/HeffyGrub.git 2- Set Exec permissions
+sudo chmod +x ./install.sh 3- Install Theme
+sudo ./install.sh Enjoy ;)</description>
+    </item>
+    
+    <item>
       <title>Pi (4) SBC</title>
       <link>https://techxero.github.io/projects/pi4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -86,7 +112,7 @@ sudo ./install.sh Enjoy ;)</description>
     </item>
     
     <item>
-      <title>Tron Legacy</title>
+      <title>T.R.O.N</title>
       <link>https://techxero.github.io/grub/tron/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -94,6 +120,19 @@ sudo ./install.sh Enjoy ;)</description>
       <description>About This is where TRON: Legacy inspired Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
 1- Git Clone Repo
 git clone https://github.com/TechXero/TronGrub.git 2- Set Exec permissions
+sudo chmod +x ./install.sh 3- Install Theme
+sudo ./install.sh Enjoy ;)</description>
+    </item>
+    
+    <item>
+      <title>TitusTech</title>
+      <link>https://techxero.github.io/dedications/ctt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/dedications/ctt/</guid>
+      <description>About This is where Chris Titus Tech dedicated Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+1- Git Clone Repo
+git clone https://github.com/TechXero/CTT-Grub.git 2- Set Exec permissions
 sudo chmod +x ./install.sh 3- Install Theme
 sudo ./install.sh Enjoy ;)</description>
     </item>

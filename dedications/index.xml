@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>~ Dedications ~ on TechXero Github</title>
+    <link>https://techxero.github.io/dedications/</link>
+    <description>Recent content in ~ Dedications ~ on TechXero Github</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://techxero.github.io/dedications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>For EFLinux</title>
+      <link>https://techxero.github.io/dedications/eflinux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/dedications/eflinux/</guid>
+      <description>About This is where EFLinux Grub Theme dedicated to his fans will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+1- Git Clone Repo
+git clone https://github.com/TechXero/EFLinuxGrub.git 2- Set Exec permissions
+sudo chmod +x ./install.sh 3- Install Theme
+sudo ./install.sh Enjoy ;)</description>
+    </item>
+    
+    <item>
+      <title>HefftorLinux</title>
+      <link>https://techxero.github.io/dedications/hefftor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/dedications/hefftor/</guid>
+      <description>About This is where HefftorLinux dedicated Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+1- Git Clone Repo
+git clone https://github.com/TechXero/HeffyGrub.git 2- Set Exec permissions
+sudo chmod +x ./install.sh 3- Install Theme
+sudo ./install.sh Enjoy ;)</description>
+    </item>
+    
+    <item>
+      <title>TitusTech</title>
+      <link>https://techxero.github.io/dedications/ctt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/dedications/ctt/</guid>
+      <description>About This is where Chris Titus Tech dedicated Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+1- Git Clone Repo
+git clone https://github.com/TechXero/CTT-Grub.git 2- Set Exec permissions
+sudo chmod +x ./install.sh 3- Install Theme
+sudo ./install.sh Enjoy ;)</description>
+    </item>
+    
+  </channel>
+</rss>
