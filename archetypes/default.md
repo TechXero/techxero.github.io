@@ -1,5 +1,5 @@
 ---
 title: "TechXero Github"
-date: {{ .Date }}
+date: 2021
 draft: true
 ---
