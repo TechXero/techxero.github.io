@@ -1,0 +1,4 @@
+baseURL = "https://techxero.github.io/"
+languageCode = "en-us"
+title = "TechXero Github"
+theme="hugo-theme-dimension"
