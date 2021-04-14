@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://techxero.github.io/grub/cyber/</guid>
-      <description>About This is where CyberXero Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+      <description>Full Size Image
+About This is where CyberXero Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
 1- Git Clone Repo
 git clone https://github.com/TechXero/CyberXero.git 2- Set Exec permissions
 sudo chmod +x ./install.sh 3- Install Theme
@@ -25,7 +26,8 @@ sudo ./install.sh Enjoy ;)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://techxero.github.io/grub/daft/</guid>
-      <description>About This is where Daft Punk inspired Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+      <description>Full Size Image
+About This is where Daft Punk inspired Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
 1- Git Clone Repo
 git clone https://github.com/TechXero/DaftGrub.git 2- Set Exec permissions
 sudo chmod +x ./install.sh 3- Install Theme
@@ -38,7 +40,8 @@ sudo ./install.sh Enjoy ;)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://techxero.github.io/grub/sw/</guid>
-      <description>About This is where Star Wars: The Last Jedi inspired Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+      <description>Full Size Image
+About This is where Star Wars: The Last Jedi inspired Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
 1- Git Clone Repo
 git clone https://github.com/TechXero/StarWarsGrub.git 2- Set Exec permissions
 sudo chmod +x ./install.sh 3- Install Theme
@@ -46,12 +49,13 @@ sudo ./install.sh Enjoy ;)</description>
     </item>
     
     <item>
-      <title>T.R.O.N</title>
+      <title>T-R-O-N</title>
       <link>https://techxero.github.io/grub/tron/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://techxero.github.io/grub/tron/</guid>
-      <description>About This is where TRON: Legacy inspired Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+      <description>Full Size Image
+About This is where TRON: Legacy inspired Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
 1- Git Clone Repo
 git clone https://github.com/TechXero/TronGrub.git 2- Set Exec permissions
 sudo chmod +x ./install.sh 3- Install Theme
@@ -64,7 +68,8 @@ sudo ./install.sh Enjoy ;)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://techxero.github.io/grub/xero/</guid>
-      <description>About This is where Xero-Compromise Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
+      <description>Full Size Image
+About This is where Xero-Compromise Grub Theme will be. Constantly updated so keep coming back. I included a script that makes installing much easier, just follow steps below :
 1- Git Clone Repo
 git clone https://github.com/TechXero/XeroComp.git 2- Set Exec permissions
 sudo chmod +x ./install.sh 3- Install Theme
