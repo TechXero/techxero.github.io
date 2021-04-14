@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>~ Linux Projects ~ on TechXero Github</title>
+    <link>https://techxero.github.io/projects/</link>
+    <description>Recent content in ~ Linux Projects ~ on TechXero Github</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://techxero.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linux</title>
+      <link>https://techxero.github.io/projects/arco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/projects/arco/</guid>
+      <description>About This is where I will be posting the various Arch Projects am working on. For example currently working on ArcoLinux and below are various scripts and configs I have created so far.
+Just Git Clone my repo every once in a while to get updated content.
+Command git clone https://github.com/TechXero/ArcoLinux.git SH Scripts Note Do not forget to set all .sh scripts to executable prior to running them via command below.</description>
+    </item>
+    
+    <item>
+      <title>Calamares Config</title>
+      <link>https://techxero.github.io/projects/calamares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/projects/calamares/</guid>
+      <description>About This is where I will be posting my custom Calamares Config. This can be used with various distros that use that installer, but mainly it was built with ArcoLinux in mind, specifically ArcoLinux Plasma. I do not know if it works with other D.E&amp;rsquo;s as I haven&amp;rsquo;t tested as of yet. I will soon, if you want you can test it and report back.
+  How-To Ok, now for the &amp;ldquo;How-To Use&amp;rdquo; part of it all.</description>
+    </item>
+    
+    <item>
+      <title>Pi (4) SBC</title>
+      <link>https://techxero.github.io/projects/pi4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/projects/pi4/</guid>
+      <description>About This is where I will be posting my Raspberry Pi scripts, configs and what have-you. Only for now this isn&amp;rsquo;t a priority, so I have nothing as of yet except a few notes I took for the times when I do use it.
+For now, Click Here to go to my Pi Github Repo see what&amp;rsquo;s there. Will post mre stuff as I get to it.. Eventually ;)</description>
+    </item>
+    
+  </channel>
+</rss>
