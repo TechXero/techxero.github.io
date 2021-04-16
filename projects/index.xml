@@ -7,17 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://techxero.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ArchLinux</title>
-      <link>https://techxero.github.io/projects/arco/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://techxero.github.io/projects/arco/</guid>
-      <description>About This is where I will be posting the various Arch Projects am working on. For example currently working on ArcoLinux and below are various scripts and configs I have created so far.
-Just Git Clone my repo every once in a while to get updated content.
-Command git clone https://github.com/TechXero/ArcoLinux.git SH Scripts Note Do not forget to set all .sh scripts to executable prior to running them via command below.</description>
-    </item>
-    
-    <item>
       <title>Calamares</title>
       <link>https://techxero.github.io/projects/calamares/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,13 +17,33 @@ Command git clone https://github.com/TechXero/ArcoLinux.git SH Scripts Note Do n
     </item>
     
     <item>
-      <title>Pi (4) SBC</title>
+      <title>KVM Script</title>
+      <link>https://techxero.github.io/projects/kvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/projects/kvm/</guid>
+      <description>About Kernel-Based Virtual Machine (KVM) is an open source virtualization technology built into Linux®. Specifically, KVM lets you turn Linux into a hypervisor that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs). More-Info.
+This is what I use for Virtualization, I find it does what I ned it to, and best part is, it doesn&amp;rsquo;t break like VirtualBox does when I use a custom Kernel like I do most of the time.</description>
+    </item>
+    
+    <item>
+      <title>RPi SBC</title>
       <link>https://techxero.github.io/projects/pi4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://techxero.github.io/projects/pi4/</guid>
       <description>About This is where I will be posting my Raspberry Pi scripts, configs and what have-you. Only for now this isn&amp;rsquo;t a priority, so I have nothing as of yet except a few notes I took for the times when I do use it.
 For now, Click Here to go to my Pi Github Repo see what&amp;rsquo;s there. Will post mre stuff as I get to it.. Eventually ;)</description>
+    </item>
+    
+    <item>
+      <title>Samba Script</title>
+      <link>https://techxero.github.io/projects/samba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/projects/samba/</guid>
+      <description>About This is my easy-to-use Samba configurator &amp;amp; installer script, that I will keep up-to-date as much as I can. It was created using a combination of ArchWiki and Erik Bubois&#39; scripts merging all into one easy script that worked for me on every Arch-based Distro I used.
+  How-To This script is dedicated to new-to-Linux users, click the link below, it will take you to script contents on my GitHub, copy code, create a new file wherever you want on your machine, calling it samba.</description>
     </item>
     
   </channel>
