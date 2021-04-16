@@ -41,15 +41,7 @@
                         <ul>
                             
                                 
-                                    
-                                        <li>
-                                            <a href="#archlinux">ArchLinux</a>
-                                        </li>
-                                    
-                                
-                            
-                                
-                                    
+                                   
                                         <li>
                                             <a href="#calamares">Calamares</a>
                                         </li>
@@ -59,7 +51,23 @@
                                 
                                     
                                         <li>
-                                            <a href="#pi-4-sbc">Pi (4) SBC</a>
+                                            <a href="#kvm-script">KVM Script</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a href="#rpi-sbc">RPi SBC</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a href="#samba-script">Samba Script</a>
                                         </li>
                                     
                                 
@@ -72,31 +80,9 @@
                 <div id="main">
 
                     
-                        
+              
                             
-                                <article id="archlinux">
-                                    <h2 class="major">ArchLinux</h2>
-                                    <span class="image main"><img src="" alt="" /></span>
-                                    <figure>
-    <img src="https://i.imgur.com/u56Cxd4.png#center" width="100%"/> 
-</figure>
-
-<h3 id="about">About</h3>
-<p>This is where I will be posting the various Arch Projects am working on. For example currently working on ArcoLinux and below are various scripts and configs I have created so far.</p>
-<p>Just Git Clone my repo every once in a while to get updated content.</p>
-<h4 id="command">Command</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/TechXero/ArcoLinux.git
-</code></pre></div><h3 id="sh-scripts-note">SH Scripts Note</h3>
-<p>Do not forget to set all <em>.sh</em> scripts to executable prior to running them via command below..</p>
-<h4 id="command-1">Command</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod +x scriptname.sh
-</code></pre></div><p>After which you can run script with this command..</p>
-<h4 id="command-2">Command</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo ./scriptname.sh
-</code></pre></div>
-<p><center><a href="https://github.com/TechXero/ArcoLinux" target="_blank"><strong>Browse Repo Here</strong></a></center></p>                                    
-                                </article>
-                            
+                          
                         
                     
                         
@@ -129,7 +115,56 @@
                                 </article>
                             
                         
-                    
+<article id="kvm-script">
+                                    <h2 class="major">KVM Script</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <figure>
+    <img src="https://i.imgur.com/tioqLbc.png#center" width="80%"/> 
+</figure>
+
+<h3 id="about">About</h3>
+<p><strong>K</strong>ernel-Based <strong>V</strong>irtual <strong>M</strong>achine (KVM) is an open source virtualization technology built into Linux®. Specifically, KVM lets you turn Linux into a hypervisor that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs). <a href="https://www.redhat.com/en/topics/virtualization/what-is-KVM" target="_blank"><strong>More-Info</strong></a>.</p>
+<p>This is what I use for Virtualization, I find it does what I ned it to, and best part is, it doesn&rsquo;t break like <strong>VirtualBox</strong> does when I use a custom Kernel like I do most of the time.</p>
+<figure>
+    <img src="https://i.imgur.com/2DUyB6F.png#center" width="50%"/> 
+</figure>
+
+<h3 id="easy-way-for-n00bs">Easy Way (For n00bs)</h3>
+<p>On the other hand, if you do not want to run all the commands in the video one by one, I have created an easy to run bash script that will do everything mentioned in the video in one swoop.</p>
+<p>Click the link below, it will take you to script contents on my GitHub, copy code, create a new file wherever you want on your machine, calling it <em>kvm.sh</em> paste code in, replace &ldquo;username&rdquo; on line 19 with yours and save it. Once that&rsquo;s done just give it executable permission (I hope you know how by now) run it and watch magic happen.</p>
+<h4 id="give-exec-permissions">Give Exec Permissions</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod +x kvm.sh
+</code></pre></div><p><center><a href="https://github.com/TechXero/ArcoLinux/blob/main/Scripts/KVM-Inst.sh" target="_blank"><strong>KVM Installer Script On GitHub</strong></a></center></p>
+<p><figure>
+    <img src="https://i.imgur.com/A9Kzijj.png#center" width="50%"/> 
+</figure>
+<!-- raw HTML omitted --></p>
+<h3 id="g33ky-how-to">G33ky How-To</h3>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/itZf5FpDcV0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<!-- raw HTML omitted --></p>
+<p>If you prefer doing things the &ldquo;G33ky&rdquo; way, then in the above video my good friend and all-time great guy <em>Ermanno Ferrari</em> over <a href="https://www.youtube.com/channel/UCX_WM2O-X96URC5n66G-hvw" target="_blank"><strong>@EFLinux</strong></a> guides us on how to install it ste-by-step on <strong>ArchLinux</strong>.</p>
+<p>Below are the commands used in the video :</p>
+<h4 id="install-kvm-with-required-packages">Install KVM with required packages</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S --noconfirm --needed qemu qemu-arch-extra virt-manager ovmf vde2 ebtables dnsmasq bridge-utils openbsd-netcat
+</code></pre></div><h4 id="bridged-networking-xml">Bridged Networking XML</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo wget <span style="color:#e6db74">&#34;https://raw.githubusercontent.com/TechXero/ArcoLinux/main/Configs/kvmnet.xml&#34;</span> -O ~/kvmnet.xml 
+</code></pre></div><p><em>P.S : It will use my own Network xml I created calling it &ldquo;XeroNet&rdquo;, but it&rsquo;s the same, just did that for my own convenience nothing more..</em></p>
+<h4 id="start-libvirt-d-service">Start LibVirt-d Service</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl enable libvirtd.service 
+sudo systemctl start libvirtd.service
+</code></pre></div><h4 id="adding-user-to-libvirt-group">Adding user to Libvirt Group</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">usermod -aG libvirt user
+</code></pre></div><p><em>P.S : This is required so you don&rsquo;t get prompted for pass every time. (Replase user with your username)</em></p>
+<h4 id="set-up-networking-services">Set up Networking services</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo virsh net-define kvmnet.xml
+sudo virsh net-start XeroNet
+sudo virsh net-autostart XeroNet
+</code></pre></div><p>Now, you can finally run Virtual Machine Manager from the Applications Menu, enjoy ;)</p>
+
+                                </article>                    
                         
                             
                                 <article id="pi-4-sbc">
@@ -145,7 +180,26 @@
 
                                 </article>
                             
-                        
+                                <article id="samba-script">
+                                    <h2 class="major">Samba Script</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <figure>
+    <img src="https://i.imgur.com/yRRd3TX.png#center" width="40%"/> 
+</figure>
+
+<h3 id="about">About</h3>
+<p>This is my easy-to-use Samba configurator &amp; installer script, that I will keep up-to-date as much as I can. It was created using a combination of <em>ArchWiki</em> and <em>Erik Bubois'</em> scripts merging all into one easy script that worked for me on every Arch-based Distro I used.</p>
+<figure>
+    <img src="https://i.imgur.com/2DUyB6F.png#center" width="50%"/> 
+</figure>
+
+<h3 id="how-to">How-To</h3>
+<p>This script is dedicated to new-to-Linux users, click the link below, it will take you to script contents on my GitHub, copy code, create a new file wherever you want on your machine, calling it <em>samba.sh</em> paste code in. Once that&rsquo;s done just give it executable permission (I hope you know how by now) run it and watch magic happen.</p>
+<p><center><a href="https://github.com/TechXero/ArcoLinux/blob/main/Scripts/samba.sh" target="_blank"><strong>Samba Script On GitHub</strong></a></center></p>
+<h4 id="give-exec-permissions">Give Exec Permissions</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod +x samba.sh
+</code></pre></div>
+                                </article>                        
                     
 
                 </div>
