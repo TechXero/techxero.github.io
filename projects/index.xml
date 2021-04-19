@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>~ My Projects ~ on TechXero Github</title>
+    <title>$ My Projects $ on TechXero Github</title>
     <link>https://techxero.github.io/projects/</link>
-    <description>Recent content in ~ My Projects ~ on TechXero Github</description>
+    <description>Recent content in $ My Projects $ on TechXero Github</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://techxero.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>^Xero-Linux^</title>
+      <link>https://techxero.github.io/projects/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techxero.github.io/projects/linux/</guid>
+      <description>What&amp;rsquo;s This ? This is where I will be posting information about my upcoming XeroLinux Arch-based Distro. It was made possible by Erik Dubois and the array of information over at the ArcoLinux site(s)&amp;hellip;
+A lot of sleepless nights and hair-pulling later, I was able to build my own Distro, my way. Now hold your horses, I ill not be making it publicly available only to a few friends either locally or close by.</description>
+    </item>
+    
     <item>
       <title>Calamares</title>
       <link>https://techxero.github.io/projects/calamares/</link>
@@ -13,7 +23,7 @@
       
       <guid>https://techxero.github.io/projects/calamares/</guid>
       <description>About This is where I will be posting my custom Calamares Config. This can be used with various distros that use that installer, but mainly it was built with ArcoLinux in mind, specifically ArcoLinux Plasma. I do not know if it works with other D.E&amp;rsquo;s as I haven&amp;rsquo;t tested as of yet. I will soon, if you want you can test it and report back.
-  Full Size Image</description>
+  How-To Ok, now for the &amp;ldquo;How-To Use&amp;rdquo; part of it all.</description>
     </item>
     
     <item>
@@ -24,16 +34,6 @@
       <guid>https://techxero.github.io/projects/kvm/</guid>
       <description>About Kernel-Based Virtual Machine (KVM) is an open source virtualization technology built into Linux®. Specifically, KVM lets you turn Linux into a hypervisor that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs). More-Info.
 This is what I use for Virtualization, I find it does what I ned it to, and best part is, it doesn&amp;rsquo;t break like VirtualBox does when I use a custom Kernel like I do most of the time.</description>
-    </item>
-    
-    <item>
-      <title>RPi SBC</title>
-      <link>https://techxero.github.io/projects/pi4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://techxero.github.io/projects/pi4/</guid>
-      <description>About This is where I will be posting my Raspberry Pi scripts, configs and what have-you. Only for now this isn&amp;rsquo;t a priority, so I have nothing as of yet except a few notes I took for the times when I do use it.
-For now, Click Here to go to my Pi Github Repo see what&amp;rsquo;s there. Will post mre stuff as I get to it.. Eventually ;)</description>
     </item>
     
     <item>

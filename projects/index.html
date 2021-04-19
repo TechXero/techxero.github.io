@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>~ My Projects ~</title>
+    <title>$ My Projects $</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="https://techxero.github.io/assets/css/main.css"/>
@@ -41,7 +41,15 @@
                         <ul>
                             
                                 
-                                   
+                                    
+                                        <li>
+                                            <a href="#xero-linux">^Xero-Linux^</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
                                         <li>
                                             <a href="#calamares">Calamares</a>
                                         </li>
@@ -52,14 +60,6 @@
                                     
                                         <li>
                                             <a href="#kvm-script">KVM Script</a>
-                                        </li>
-                                    
-                                
-                            
-                                
-                                    
-                                        <li>
-                                            <a href="#rpi-sbc">RPi SBC</a>
                                         </li>
                                     
                                 
@@ -80,9 +80,30 @@
                 <div id="main">
 
                     
-              
+                        
                             
-                          
+                                <article id="xero-linux">
+                                    <h2 class="major">^Xero-Linux^</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <p><figure>
+    <img src="https://i.imgur.com/ZQbUJ7d.png#center" width="100%"/> 
+</figure>
+<!-- raw HTML omitted --></p>
+<h3 id="whats-this-">What&rsquo;s This ?</h3>
+<p>This is where I will be posting information about my upcoming <strong>XeroLinux</strong> <em>Arch-based</em> Distro. It was made possible by <a href="https://www.youtube.com/c/ErikDubois/videos" target="_blank"><strong>Erik Dubois</strong></a> and the array of information over at the <a href="https://www.arcolinux.info" target="_blank"><strong>ArcoLinux</strong></a> site(s)&hellip;</p>
+<p>A lot of sleepless nights and hair-pulling later, I was able to build my own Distro, my way. Now hold your horses, I ill not be making it publicly available only to a few friends either locally or close by. I do not have the bandwidth to upload, nor am suited to handle the troubleshooting other can with a team of devs behind them.</p>
+<p>This is just a P.O.C (Proof Of Concept), meaning am showing y&rsquo;all that with perserverance and will, you can do it too. I have only been using Linix 8 months now. If I could do this in only 8 months imagine what will happen in a year or so..</p>
+<h3 id="more-info">More Info</h3>
+<p><strong>XeroLinux</strong> is based off of  a project by my fellow <em>Erik Dubois</em> called <strong>ALCI</strong> or simply put <strong>A</strong>rch <strong>L</strong>inux <strong>C</strong>alamares <strong>I</strong>nstaller. Meaning it&rsquo;s an easier way to install <em>ArchLinux</em> using the <em>Calamares</em> Installer&hellip;</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/pT8XFGBuROs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<!-- raw HTML omitted --></p>
+<p>Anyway, watch the above video to get a better idea. In the meantime  I will point the way, up to you to learn and build your very own Distro soon&hellip;<a href="https://discord.gg/R2amEEz" target="_blank"><em>Click Here</em></a> to join us over at the <strong>ArcoLinux</strong> Discord. See ya there&hellip;;)</p>
+
+                                </article>
+                            
                         
                     
                         
@@ -96,12 +117,12 @@
 
 <h3 id="about">About</h3>
 <p>This is where I will be posting my custom Calamares Config. This can be used with various distros that use that installer, but mainly it was built with ArcoLinux in mind, specifically ArcoLinux Plasma. I do not know if it works with other D.E&rsquo;s as I haven&rsquo;t tested as of yet. I will soon, if you want you can test it and report back.</p>
-<figure>
+<p><figure>
     <img src="https://i.imgur.com/GZ5LGlo.png#center" width="100%"/> 
 </figure>
-<br />
+<!-- raw HTML omitted --></p>
 <h3 id="how-to">How-To</h3>
-<p>Ok, now for the &ldquo;How-To Use&rdquo; part of it all. Here I will show you how to use my own script, but if you are as much of a tinkerer as I am, I have a more in-depth tutorial on how you can build your own custom config over at <a href="https://arcolinuxforum.com/viewtopic.php?f=46&amp;t=2525" target="_blank">ArcoLinux Forums</a>.</p>
+<p>Ok, now for the &ldquo;How-To Use&rdquo; part of it all. Here I will show you how to use my own script, but if you are as much of a tinkerer as I am, I have a more in-depth tutorial on how you can build your own custom config over at <a href="https://arcolinuxforum.com/viewtopic.php?f=46&amp;t=2525">ArcoLinux Forums</a>.</p>
 <p>Anyway, for now, here&rsquo;s how to use my own Calamares Config, the way I made it. First, boot into your ISO of choice, in this case ArcoLinux B Plasma, do NOT run installer yet, as we want it to use our config, since it doesn&rsquo;t have it yet, it will use default. Now head into /etc/ folder and open Terminal there. Since a <em>calamares</em> folder already exists there, we will first have to rename it to something else in order for us to replace it with our own. To do that run command below :</p>
 <h4 id="command">Command</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo mv calamares calamares.old
@@ -110,12 +131,16 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo git clone https://github.com/TechXero/calamares.git 
 </code></pre></div><p>Now, you can finally run installer, once you do, you will see my config instead of the <em>ArcoLinux</em> one.</p>
 <h3 id="final-words">Final words</h3>
-<p>I hope this proves to be helpful to you. You are free to use my config as a baseline, or, if you are building a Distro of your own, no need to ask me for permission, just use it, as long as you credit me it&rsquo;s fine. That&rsquo;s the best part of Linux, FREEDOM&hellip; :D</p>
+<p>I hope this proves to be helpful to you. You are free to use my config as a baseline, or, if you are building a Distro of your own, no need to ask me for permission, just use it, as long as you credit me it&rsquo;s fine. THat&rsquo;s the best part of Linux, <strong>FREEDOM&hellip;</strong> :D</p>
 <p><center><a href="https://github.com/TechXero/calamares" target="_blank"><strong>Browse Repo Here</strong></a></center></p>
+
                                 </article>
                             
                         
-<article id="kvm-script">
+                    
+                        
+                            
+                                <article id="kvm-script">
                                     <h2 class="major">KVM Script</h2>
                                     <span class="image main"><img src="" alt="" /></span>
                                     <figure>
@@ -130,7 +155,7 @@
 </figure>
 
 <h3 id="easy-way-for-n00bs">Easy Way (For n00bs)</h3>
-<p>I have created an easy to run bash script that will do everything for you in one simple swoop.</p>
+<p>On the other hand, if you do not want to run all the commands in the video one by one, I have created an easy to run bash script that will do everything mentioned in the video in one swoop.</p>
 <p>Click the link below, it will take you to script contents on my GitHub, copy code, create a new file wherever you want on your machine, calling it <em>kvm.sh</em> paste code in, replace &ldquo;username&rdquo; on line 19 with yours and save it. Once that&rsquo;s done just give it executable permission (I hope you know how by now) run it and watch magic happen.</p>
 <p><em>P.S : Don&rsquo;t forget to replace &ldquo;username&rdquo; with your username</em></p>
 <h4 id="give-exec-permissions">Give Exec Permissions</h4>
@@ -158,28 +183,18 @@
 sudo systemctl start libvirtd.service
 </code></pre></div><h4 id="adding-user-to-libvirt-group">Adding user to Libvirt Group</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">usermod -aG libvirt user
-</code></pre></div><p><em>P.S : This is required so you don&rsquo;t get prompted for pass every time. (Replace user with your username)</em></p>
+</code></pre></div><p><em>P.S : This is required so you don&rsquo;t get prompted for pass every time. (Replase user with your username)</em></p>
 <h4 id="set-up-networking-services">Set up Networking services</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo virsh net-define kvmnet.xml
 sudo virsh net-start XeroNet
 sudo virsh net-autostart XeroNet
 </code></pre></div><p>Now, you can finally run Virtual Machine Manager from the Applications Menu, enjoy ;)</p>
 
-                                </article>                    
-                        
-                            
-                                <article id="rpi-sbc">
-                                    <h2 class="major">Pi (4) SBC</h2>
-                                    <span class="image main"><img src="" alt="" /></span>
-                                    <figure>
-    <img src="https://i.imgur.com/yuCuecK.png#center" width="50%"/> 
-</figure>
-
-<h3 id="about">About</h3>
-<p>This is where I will be posting my <em>Raspberry Pi</em> scripts, configs and what have-you. Only for now this isn&rsquo;t a priority, so I have nothing as of yet except a few notes I took for the times when I do use it.</p>
-<p>For now, <a href="https://github.com/TechXero/RaspberryPi" target="_blank"><em>Click Here</em></a> to go to my Pi Github Repo see what&rsquo;s there. Will post mre stuff as I get to it.. Eventually ;)</p>
-
                                 </article>
+                            
+                        
+                    
+                        
                             
                                 <article id="samba-script">
                                     <h2 class="major">Samba Script</h2>
@@ -189,7 +204,7 @@ sudo virsh net-autostart XeroNet
 </figure>
 
 <h3 id="about">About</h3>
-<p>This is my easy-to-use Samba configurator &amp; installer script, that I will keep up-to-date as much as I can. It was created using a combination of <em>ArchWiki</em> and <em>Erik Dubois'</em> scripts merging all into one easy script that worked for me on every Arch-based Distro I used.</p>
+<p>This is my easy-to-use Samba configurator &amp; installer script, that I will keep up-to-date as much as I can. It was created using a combination of <em>ArchWiki</em> and <em>Erik Bubois'</em> scripts merging all into one easy script that worked for me on every Arch-based Distro I used.</p>
 <figure>
     <img src="https://i.imgur.com/2DUyB6F.png#center" width="50%"/> 
 </figure>
@@ -200,7 +215,9 @@ sudo virsh net-autostart XeroNet
 <h4 id="give-exec-permissions">Give Exec Permissions</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod +x samba.sh
 </code></pre></div>
-                                </article>                        
+                                </article>
+                            
+                        
                     
 
                 </div>
