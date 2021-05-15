@@ -139,46 +139,25 @@
 
 <h3 id="about">About</h3>
 <p><strong>K</strong>ernel-Based <strong>V</strong>irtual <strong>M</strong>achine (KVM) is an open source virtualization technology built into Linux®. Specifically, KVM lets you turn Linux into a hypervisor that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs). <a href="https://www.redhat.com/en/topics/virtualization/what-is-KVM" target="_blank"><strong>More-Info</strong></a>.</p>
-<p>This is what I use for Virtualization, I find it does what I ned it to, and best part is, it doesn&rsquo;t break like <strong>VirtualBox</strong> does when I use a custom Kernel like I do most of the time.</p>
-<figure>
-    <img src="https://i.imgur.com/2DUyB6F.png#center" width="50%"/> 
-</figure>
-
-<h3 id="easy-way-for-n00bs">Easy Way (For n00bs)</h3>
-<p>On the other hand, if you do not want to run all the commands in the video one by one, I have created an easy to run bash script that will do everything mentioned in the video in one swoop.</p>
-<p>Click the link below, it will take you to script contents on my GitHub, copy code, create a new file wherever you want on your machine, calling it <em>kvm.sh</em> paste code in, replace &ldquo;username&rdquo; on line 19 with yours and save it. Once that&rsquo;s done just give it executable permission (I hope you know how by now) run it and watch magic happen.</p>
-<p><em>P.S : Don&rsquo;t forget to replace &ldquo;username&rdquo; with your username</em></p>
-<h4 id="give-exec-permissions">Give Exec Permissions</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod +x kvm.sh
-</code></pre></div><p><center><a href="https://github.com/TechXero/ArcoLinux/blob/main/Scripts/KVM-Inst.sh" target="_blank"><strong>KVM Installer Script On GitHub</strong></a></center></p>
-<p><figure>
-    <img src="https://i.imgur.com/A9Kzijj.png#center" width="50%"/> 
-</figure>
-<!-- raw HTML omitted --></p>
-<h3 id="g33ky-how-to">G33ky How-To</h3>
+<p>This is what I use for Virtualization, I find it does what I need it to, and best part is, it doesn&rsquo;t break like <strong>VirtualBox</strong> does when I use a custom Kernel like I do most of the time.</p>
 <p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/itZf5FpDcV0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 <!-- raw HTML omitted --></p>
-<p>If you prefer doing things the &ldquo;G33ky&rdquo; way, then in the above video my good friend and all-time great guy <em>Ermanno Ferrari</em> over <a href="https://www.youtube.com/channel/UCX_WM2O-X96URC5n66G-hvw" target="_blank"><strong>@EFLinux</strong></a> guides us on how to install it ste-by-step on <strong>ArchLinux</strong>.</p>
-<p>Below are the commands used in the video :</p>
-<h4 id="install-kvm-with-required-packages">Install KVM with required packages</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S --noconfirm --needed qemu qemu-arch-extra virt-manager ovmf vde2 ebtables dnsmasq bridge-utils openbsd-netcat
-</code></pre></div><h4 id="bridged-networking-xml">Bridged Networking XML</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo wget <span style="color:#e6db74">&#34;https://raw.githubusercontent.com/TechXero/ArcoLinux/main/Configs/kvmnet.xml&#34;</span> -O ~/kvmnet.xml 
-</code></pre></div><p><em>P.S : It will use my own Network xml I created calling it &ldquo;XeroNet&rdquo;, but it&rsquo;s the same, just did that for my own convenience nothing more..</em></p>
-<h4 id="start-libvirt-d-service">Start LibVirt-d Service</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl enable libvirtd.service 
-sudo systemctl start libvirtd.service
-</code></pre></div><h4 id="adding-user-to-libvirt-group">Adding user to Libvirt Group</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">usermod -aG libvirt user
-</code></pre></div><p><em>P.S : This is required so you don&rsquo;t get prompted for pass every time. (Replase user with your username)</em></p>
-<h4 id="set-up-networking-services">Set up Networking services</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo virsh net-define kvmnet.xml
-sudo virsh net-start XeroNet
-sudo virsh net-autostart XeroNet
-</code></pre></div><p>Now, you can finally run Virtual Machine Manager from the Applications Menu, enjoy ;)</p>
+
+<h3 id="easy-way">Simple Automated Script</h3>
+<p>I have created an easy to run bash script that will do everything based on video by @EFLinux in one single swoop.</p>
+<p>Click the link below, it will take you to script contents on my GitHub, copy code, create a new file wherever you want on your machine, calling it <em>QEMU.sh</em> paste code in, and save it. Once that&rsquo;s done just give it executable permission (I hope you know how by now) run it and watch magic happen.</p>
+<h4 id="give-exec-permissions">Give Exec Permissions</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod +x QEMU.sh
+</code></pre></div><p><center><a href="https://github.com/TechXero/ArcoLinux/blob/main/Scripts/QEMU.sh" target="_blank"><strong>KVM Installer Script On GitHub</strong></a></center></p>
+<p><figure>
+    <img src="https://i.imgur.com/A9Kzijj.png#center" width="50%"/> 
+</figure>
+<h3 id="g33ky-how-to">G33ky How-To</h3>
+<p>If you like video above, then check out some more awesome videos by my good friend and all-time great guy <em>Ermanno Ferrari</em> over <a href="https://www.youtube.com/channel/UCX_WM2O-X96URC5n66G-hvw" target="_blank"><strong>@EFLinux</strong></a> as it's best source for <strong>ArchLinux</strong> Guides and more...</p>
+<p>Now, you can finally run Virtual Machine Manager from the Applications Menu, enjoy ;)</p>
 
                                 </article>
                             
